@@ -1,0 +1,15 @@
+GET http://localhost:9082/products?name=iphone
+Accept: application/json
+
+###
+POST http://localhost:9082/products
+Content-Type: application/json
+
+{
+  "productId": "yourProductId",
+  "name": "IPhone 15",
+  "description": "Your product description",
+  "price": 2500,
+  "quantity": 1
+}
+
